@@ -1,0 +1,99 @@
+/**I, Nick Efe Oni, am the author of this work**/
+body {
+	width: 90%; 
+	margin: 5%;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 1em;
+}
+
+button {
+	font-size: 0.83em;
+}
+@media screen and (min-width: 1024px) {
+	h1 {
+		font-size: 2.5em;
+	}
+	p {
+	font-size: 1.3em;
+	}
+	button {
+		font-size: 1.23em;
+	}
+}
+@media screen and (min-width: 1024px) {
+	h1 {
+		font-size: 2.8em;
+	}
+	p {
+	font-size: 1.5em;
+	}
+	button {
+		font-size: 1.33em;
+	}
+}
+@media screen and (min-width: 1600px) {
+	h1 {
+		font-size: 3.5em;
+	}
+	p {
+	font-size: 1.8em;
+	}
+	button {
+		font-size: 1.73em;
+	}
+}
+
+#wrapper {
+	display: flex; 
+	flex-wrap: wrap; 
+	flex-direction: column; 
+	align-items: center;
+}
+
+#canvas1, #canvas2, #canvas3, #canvas4, #canvas5 {
+	border: 2px black solid; 
+	height: 100%; 
+	margin: 0;
+	width: 18%;
+}
+@media screen and (max-width: 768px) {
+	#canvas1, #canvas2, #canvas3, #canvas4, #canvas5 {
+		width: 15%;
+	}
+}
+@media screen and (min-width: 768px) {
+	#canvas1, #canvas2, #canvas3, #canvas4, #canvas5 {
+		border-width: 3px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	#canvas1, #canvas2, #canvas3, #canvas4, #canvas5 {
+		border-width: 5px;
+	}
+}
+
+#verify-button {margin-bottom: 0.4em;}
+
+#reinitalise-button, #verify-button {
+	width: 20%; 
+	height: 5%;	
+	inline-size: fit-content;
+    padding: 0.15em 0.5em 0.15em 0.5em;
+    cursor: pointer;
+    border-radius: 1em;
+}
+
+#canvas-wrapper {
+	border: 0.1875em black double; 
+	margin: 5px; 
+	width: 80%; 
+	padding: 3px 3px 0px 3px; 
+	display: flex; 
+	justify-content: space-around;
+}
